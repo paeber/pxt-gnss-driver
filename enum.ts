@@ -1,0 +1,45 @@
+// Gib deinen Code hier ein
+
+
+enum GNSS_REG{
+    I2C_YEAR_H = 0,
+    I2C_YEAR_L = 1,
+    I2C_MONTH = 2,
+    I2C_DATE = 3,
+    I2C_HOUR = 4,
+    I2C_MINUTE = 5,
+    I2C_SECOND = 6,
+    I2C_LAT_1 = 7,
+    I2C_LAT_2 = 8,
+    I2C_LAT_X_24 = 9,
+    I2C_LAT_X_16 = 10,
+    I2C_LAT_X_8 = 11,
+    I2C_LON_DIS = 12,
+    I2C_LON_1 = 13,
+    I2C_LON_2 = 14,
+    I2C_LON_X_24 = 15,
+    I2C_LON_X_16 = 16,
+    I2C_LON_X_8 = 17,
+    I2C_LAT_DIS = 18,
+    I2C_USE_STAR = 19,
+    I2C_ALT_H = 20,
+    I2C_ALT_L = 21,
+    I2C_ALT_X = 22,
+
+    I2C_SOG_H = 23,
+    I2C_SOG_L = 24,
+    I2C_SOG_X = 25,
+    I2C_COG_H = 26,
+    I2C_COG_L = 27,
+    I2C_COG_X = 28,
+
+    I2C_START_GET = 29,
+    I2C_ID = 30,
+    I2C_DATA_LEN_H = 31,
+    I2C_DATA_LEN_L = 32,
+    I2C_ALL_DATA = 33,
+
+    I2C_GNSS_MODE = 34,
+    I2C_SLEEP_MODE = 35,
+    I2C_RGB_MODE = 36,
+}
